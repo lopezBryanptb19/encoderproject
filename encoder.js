@@ -3,6 +3,14 @@ $("#inputText").keyup(function(e) {
   document.getElementById("textArea").innerHTML = inputText;
 })
 
+if ($("input:checked").val()== "echo"){
+  document.getElementById("textArea").innerHTML = inputText;
+}
+if else ($("input:checked").val() == "shift"){
+  document.getElementById("textArea").innerHTML = inputText;
+}
+if else($("input:checked").val() == "")
+
 $("#input[type='radio']")._(functio(){
   $("input:checked").prop('checked', );
   $(this).prop('checked', );
